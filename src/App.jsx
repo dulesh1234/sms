@@ -15,6 +15,7 @@ import Profile from "./components/Login.jsx";
 // import Profile from "./components/Profile.jsx";
 import SideBar from "./pages/SideBar.jsx";
 import Dashboard from "./pages/Dashboard.jsx";
+import ShopDashboard from "./pages/SchoolShop/ShopDashboard.jsx";
 
 const App = () => {
 //   const route = createBrowserRouter([
@@ -35,8 +36,8 @@ const App = () => {
       //   <Profile/>
       //  </UserContextProvider>
       <div>
-        <SideBar/>
-      
+        {/* <SideBar/> */}
+      <ShopDashboard/>
       </div>
   );
 };
